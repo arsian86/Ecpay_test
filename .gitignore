@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS metadata
+.DS_Store
+
+# Editor configs
+.vscode/
+
+# Build outputs
+dist/
+
+# Test coverage
+coverage/
+
+# TypeORM migrations
+migrations/

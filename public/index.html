@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>綠界金流test</title>
+	</head>
+	<body>
+		<h1>綠界金流 API test</h1>
+		<form
+			id="payment-form"
+			action="http://localhost/payment/create-order"
+			method="POST"
+		>
+			<button type="submit">付款</button>
+		</form>
+		<form
+		id="cancel-form"
+		action="http://localhost/payment/cancel-payment"
+		method="POST"
+	>
+		<button type="submit">停止定期扣款授權</button>
+	</form>
+	</body>
+</html>
